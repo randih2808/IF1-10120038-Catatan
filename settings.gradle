@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "IF1_10120038_Catatan_Harian"

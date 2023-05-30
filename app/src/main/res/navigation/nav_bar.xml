@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bar"
+    app:startDestination="@id/nbProfilesaya">
+
+    <fragment
+        android:id="@+id/nbHomee"
+        android:name="com.Tugas_UTS_Genap_2023_AKB.IF1_10120038_Catatan_Harian.Homee"
+        android:label="fragment_homee"
+        tools:layout="@layout/fragment_homee" />
+    <fragment
+        android:id="@+id/nbCatatansaya"
+        android:name="com.Tugas_UTS_Genap_2023_AKB.IF1_10120038_Catatan_Harian.Catatansaya"
+        android:label="fragment_catatansaya"
+        tools:layout="@layout/fragment_catatansaya" />
+    <fragment
+        android:id="@+id/nbProfilesaya"
+        android:name="com.Tugas_UTS_Genap_2023_AKB.IF1_10120038_Catatan_Harian.Profilesaya"
+        android:label="fragment_profilesaya"
+        tools:layout="@layout/fragment_profilesaya" />
+</navigation>
